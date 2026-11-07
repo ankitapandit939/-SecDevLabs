@@ -1,0 +1,26 @@
+# React / Vite
+node_modules/
+dist/
+
+# Spring Boot / Maven
+target/
+*.class
+*.log
+
+# IntelliJ
+.idea/
+*.iml
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Operating system
+.DS_Store
+Thumbs.db
+
+# Unrelated nested Java project
+/Frontend/frontend/

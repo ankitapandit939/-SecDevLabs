@@ -1,0 +1,24 @@
+
+
+services:
+  db:
+    image: postgres:15-alpine
+    container_name: postgres-db
+
+
+    ports:
+    - "5432:5432"
+
+
+    environment:
+     POSTGRES_DB: secdevlabs
+     POSTGRES_USER: postgres
+     POSTGRES_PASSWORD: ${DB_PASSWORD}
+
+
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+
+volumes:
+        pgdata:
