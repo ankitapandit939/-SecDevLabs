@@ -4,9 +4,7 @@ import {
   BookOpen,
   Bug,
   GitFork,
-  AlertTriangle,
-  ShieldCheck,
-  Zap
+  AlertTriangle
 } from 'lucide-react';
 import type { Lab } from '../data/labsData';
 
